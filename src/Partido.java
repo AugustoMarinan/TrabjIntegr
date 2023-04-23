@@ -26,11 +26,11 @@ public class Partido {
             this.equipo2 = equipo2;
         }
 
-        public String getResultado() {
+        public String getResultados() {
             return resultado;
         }
 
-        public void setResultado(String resultado) {
+        public void setResultados(String resultado) {
             this.resultado = resultado;
         }
     }

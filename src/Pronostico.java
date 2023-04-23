@@ -1,6 +1,16 @@
     import java.util.ArrayList;
+    import java.util.Map;
 
     public class Pronostico {
+        private String equipoLocal;
+        private String equipoVisitante;
+        private String resultado;
+        public Pronostico(String equipoLocal, String equipoVisitante, String resultado) {
+            this.equipoLocal = equipoLocal;
+            this.equipoVisitante = equipoVisitante;
+            this.resultado = resultado;
+        }
+
         private ArrayList<String> resultadosPronosticados;
 
         public Pronostico() {
@@ -22,6 +32,8 @@
         public void quitarResultado(String resultado) {
             resultadosPronosticados.remove(resultado);
         }
+
     }
+
 
 
